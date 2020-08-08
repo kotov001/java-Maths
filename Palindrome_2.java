@@ -26,9 +26,9 @@ public class Palindrome_2 {
         String strInput = sc.nextLine();
         
        if(isPalindrome(strInput))
-            System.out.println(strInput+ " yes");
+            System.out.println(strInput+ " yes its a palindrome");
        else
-            System.out.println(strInput + " no");
+            System.out.println(strInput + " no its not a palindrome");
         
     }
     
