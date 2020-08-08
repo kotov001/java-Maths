@@ -7,12 +7,12 @@ public class Palindrome{
 	         if(str.charAt(i) != str.charAt(length-i-1)){
 			   result = false;
 			   break;
-			   }
-			   }
-			   return result;
+	   }
+	}
+	 return result;
 }
 
-public static void manin(String[] args){
+public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter input to be tested :");
 	String input = sc.nextLine();
